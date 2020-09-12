@@ -1,0 +1,574 @@
+body{
+    margin:30px;
+    background-color: #fafafa;
+}
+
+.banner {
+    background-color: rgb(66,196,247);
+    border-radius:2px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.banner h1{
+    display:inline-block;
+    color: #ffffff;
+    font-size:30px;
+    margin:10px 50px;
+    padding:5px;
+    border-radius:5px;
+}
+
+.categories{
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0;
+  margin-right:50px;
+
+}
+
+.categories-2{
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:1px solid grey;
+
+}
+.cat{
+  display: inline-block;
+}
+
+
+.catA{
+  display: inline-block;
+  padding: 0px 16px;
+  margin-top:15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size:18px;
+}
+
+.catA-2{
+  display: inline-block;
+  padding: 0px 16px;
+  margin-top:15px;
+  color: rgb(66,196,247);
+  text-align: center;
+  text-decoration: none;
+  font-size:18px;
+
+}
+/*------------ Home ---------------*/
+
+#pic{
+  margin-bottom:25px;
+  margin-top:25px;
+  background-repeat:no-repeat;
+}
+
+#up{
+    display: flex;
+    justify-content: space-between;
+}
+
+#up-left{
+    margin-top:50px;
+}
+
+/*------------ Backtest ---------------*/
+
+#stock-chart{
+    margin-top:15px;
+    height:400px;
+    border-left:1px solid grey;
+    border-bottom:1px solid grey;
+
+
+}
+#stock-table{
+    margin-top:15px;
+    height:560px;
+}
+
+.date-picker{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#commission-input{
+    width:47%;
+}
+
+#capital-input{
+    width:47%;
+}
+
+.commission-capital{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.stock-picker{
+    width:47%;
+}
+
+#bring-data-button{
+    width:47%;
+}
+.stock-picker-bring-data{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.strategy-picker{
+    margin-top:20px;
+}
+
+#strategy-type{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+#execute-button{
+    width:47%;
+}
+
+.execute-colored{
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+#backtest{
+    margin-top:15px;
+    padding:10px;
+    background-color: #fafafa;
+    border-top:1px solid grey;
+    border-right:1px solid grey;
+}
+
+#send-results-button{
+    margin-top:15px;
+}
+
+#table_feature{
+    margin-top:15px;
+}
+
+#progress{
+    height:24px;
+    width:60%;
+
+}
+
+/*---------- Optimization -----------------*/
+
+#optimization-1{
+    margin-top:15px;
+    padding:10px;
+    background-color: #ffffff;
+}
+
+#optimization-2{
+    margin-top:15px;
+    padding:10px;
+    background-color: #ffffff;
+}
+
+#optimization-3{
+    margin-top:15px;
+    padding:10px;
+    background-color: #ffffff;
+}
+
+.date-picker2{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#commission-input2{
+    width:47%;
+}
+
+#capital-input2{
+    width:47%;
+}
+
+.commission-capital2{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.stock-picker2{
+    width:47%;
+}
+
+#bring-data-button2{
+    width:47%;
+}
+.stock-picker-bring-data2{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.strategy-picker2{
+    margin-top:20px;
+}
+
+#strategy-type2{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid grey;
+    padding-bottom:10px;
+}
+
+#colored-type2{
+    margin-top:10px;
+    padding-bottom:10px;
+
+}
+
+#ratio{
+   width:47%;
+}
+
+.about-ratios-ratio{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#execute-button2{
+    margin-top:20px;
+    width:47%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#send-results-button-2{
+    margin-top:15px;
+}
+
+.var-no-input{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.range-value-label{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-from{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-to{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-var-no{
+    width:30%;
+}
+
+#second-var-no{
+    width:30%;
+}
+
+#third-var-no{
+    width:30%;
+}
+
+#first-range-from{
+    width:30%;
+}
+#second-range-from{
+    width:30%;
+}
+#third-range-from{
+    width:30%;
+}
+#first-range-to{
+    width:30%;
+}
+#second-range-to{
+    width:30%;
+}
+#third-range-to{
+    width:30%;
+}
+
+#step-input{
+    margin-left:80px;
+    margin-top:15px;
+    width:45%;
+}
+
+#criteria{
+    border-bottom:1px solid grey;
+    padding-bottom:10px;
+}
+
+#back-opt{
+    display: flex;
+    justify-content: center;
+}
+
+#table_feature2{
+    margin-top:15px;
+}
+
+.buttons-my-works{
+     margin-top:15px;
+}
+
+/*------------ Analysis ---------------*/
+
+#table_feature3{
+    margin-top:15px;
+}
+
+#panel{
+    margin-top:15px;
+
+}
+#first-two-graph{
+    margin-top:15px;
+}
+
+#second-two-graph{
+    margin-top:15px;
+}
+
+#third-two-graph{
+    margin-top:15px;
+}
+
+/*------------ My Works ---------------*/
+
+#all-result-table{
+    margin-top:15px;
+}
+
+/*------------ Prediction ---------------*/
+
+#model{
+    width:15%;
+}
+
+#time{
+    width:15%;
+}
+
+#prediction-chart{
+    margin-top:15px;
+}
+
+#prediction-table{
+    margin-top:15px;
+}
+
+#prediction_panel{
+    display: flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+/*------------ Simulation ---------------*/
+
+
+#commission-input4{
+    width:47%;
+}
+
+#capital-input4{
+    width:47%;
+}
+
+.commission-capital{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.stock-picker4{
+    width:47%;
+}
+
+#strategy4{
+    width:47%;
+}
+
+.stock-strategy{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#strategy-type4{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+#simulation-execute-button{
+    width:47%;
+    margin-top:40px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding: 0px;
+}
+
+#simulation{
+    padding:10px;
+    background-color: #ffffff;
+}
+
+#dynamic-top-part{
+    margin-top:15px;
+}
+
+#dynamic-below-part{
+    margin-top:15px;
+}
+
+#dynamic-table-3{
+    margin-top:20px;
+}
+
+#my-output-1, #my-output-3, #my-output-4, #my-output-5, #my-output-6{
+    border: 1px solid grey;
+    padding:10px;
+    background-color:#ffffff;
+    margin-bottom:15px;
+
+}
+
+#my-output-7{
+    border: 1px solid grey;
+    padding:10px;
+    background-color:#ffffff;
+    margin-top:15px;
+
+}
+
+#results_panel{
+    display: flex;
+    flex-direction:column;
+}
+#dynamic-graph-2{
+    margin-top:15px;
+}
+
+/*------------ Login ---------------*/
+#login-panel{
+    display: flex;
+    flex-direction:column;
+    border:1px solid grey;
+    height:350px;
+    width:20%;
+    padding:25px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    border-radius:15px;
+}
+#login-button{
+    text-decoration:none;
+    border:1px solid grey;
+    padding:5px;
+    text-align:center;
+    border-radius:5px;
+    margin-top:25px;
+    background-color:rgb(66,196,247);
+    color:white;
+}
+#email{
+    margin-top:15px;
+}
+
+#password{
+    margin-top:15px;
+}
+
+#welcome{
+    text-align:center;
+}
+
+#forget-pass{
+    text-align:center;
+    margin-top:30px;
+}
+#create-account{
+    text-align:center;
+}
+
+/*------------ Signup ---------------*/
+
+#signup-panel{
+    display: flex;
+    flex-direction:column;
+    border:1px solid grey;
+    height:450px;
+    width:20%;
+    padding:25px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    border-radius:15px;
+}
+
+#register-button{
+    text-decoration:none;
+    border:1px solid grey;
+    padding:5px;
+    text-align:center;
+    border-radius:5px;
+    margin-top:25px;
+    background-color:rgb(66,196,247);
+    color:white;
+}
+
+#first-name{
+    margin-top:15px;
+}
+#last-name{
+    margin-top:15px;
+}
+
+#password-again{
+    margin-top:15px;
+}
+#have-account{
+    text-align:center;
+}
+
+#account{
+    text-align:center;
+}
