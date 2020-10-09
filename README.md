@@ -3,7 +3,7 @@
 ### Backtest page
 <img src="screenshoots/backtest-page.png">
 
-### Simulatin page
+### Simulation page
 <img src="screenshoots/simulation-page.png">
 
 ### Optimization page
